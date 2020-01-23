@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 newfourx4.ngc newfourx4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o newfourx4_map.ncd newfourx4.ngd newfourx4.pcf 
+par -w -intstyle ise -ol high -mt off newfourx4_map.ncd newfourx4.ncd newfourx4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml newfourx4.twx newfourx4.ncd -o newfourx4.twr newfourx4.pcf 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 newfourx4.ngc newfourx4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o newfourx4_map.ncd newfourx4.ngd newfourx4.pcf 
+par -w -intstyle ise -ol high -mt off newfourx4_map.ncd newfourx4.ncd newfourx4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml newfourx4.twx newfourx4.ncd -o newfourx4.twr newfourx4.pcf 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 
+xst -intstyle ise -ifn "S:/newfourx4/newfourx4.xst" -ofn "S:/newfourx4/newfourx4.syr" 

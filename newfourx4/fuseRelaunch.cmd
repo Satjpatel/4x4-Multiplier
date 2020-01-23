@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "S:/newfourx4/new4x4multiplier_isim_beh.exe" -prj "S:/newfourx4/new4x4multiplier_beh.prj" "work.new4x4multiplier" "work.glbl" 
